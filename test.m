@@ -71,7 +71,7 @@ it=cell(dim);
 
 for i=1:numel(algos)
     options.algo = algos{i};
-    [X{i},e{i},t{i},it{i}] = main_LIP(A_op,B,options);
+    [X{i},e{i},t{i},it{i}] = LIP(A_op,B,options);
     fig_win=figure;
     imshow(X{i}, [])
     folder = 'results'; 

@@ -65,7 +65,7 @@ it=cell(dim);
 
 for i=1:numel(algos)
     options.algo = algos{i};
-    [x{i},e{i},t{i},it{i}] = main_LIP(A_op,b_nosied,options);
+    [x{i},e{i},t{i},it{i}] = LIP(A_op,b_nosied,options);
 end
 
 %% Output&&Plot
