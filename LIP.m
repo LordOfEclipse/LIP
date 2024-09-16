@@ -19,6 +19,10 @@ function [x,e,t,it] = LIP(A_op,b,options)
 %   [2] A. Beck and M. Teboulle, "A Fast Iterative Shrinkage-Thresholding 
 %       Algorithm for Linear Inverse Problems," SIAM Journal on Imaging 
 %       Sciences 2, 183-202 (2009).
+%   [3] L. Eldén, Matrix Methods in Data Mining and Pattern Recognition, 
+%       Society for Industrial and Applied Mathematics, 2007.
+%   [4] P. C. Hansen, J. G. Nagy, and D. P. O’Leary, Deblurring Images: 
+%       Matrices, Spectra, and Filtering, SIAM, Philadelphia, PA, 2006.
 %
 % *************************************************************************
 % * Author:     Hu Dongnan.
@@ -28,8 +32,8 @@ function [x,e,t,it] = LIP(A_op,b,options)
 % * [Yunhui Gao](https://github.com/Yunhui-Gao). My sincerest thanks.
 % * 
 % * Statement. This code is accomplished during the Sitp project under the 
-% * guidance of teacher Zheng Ning in Tongji University. My sincerest 
-% * thanks.
+% * guidance of assistant professor Zheng Ning in Tongji University. My 
+% * sincerest thanks.
 % * 
 % * For now we try some new way to solve this problem but no expected
 % * effect showed up.
